@@ -1,7 +1,7 @@
 # HumanBenchmarkBot
  Automation of tasks on [Human Benchmark](https://humanbenchmark.com/) using python, just for fun. Try it for yourself if you've never done it! (Without the bot of course)
  
- Here are what my scores look like...
+ Here are what my actual scores look like...
  ![image](https://user-images.githubusercontent.com/34012681/116012273-df290280-a5e6-11eb-9bee-9215af3c807e.png)
 
  But let's get to the bot.
