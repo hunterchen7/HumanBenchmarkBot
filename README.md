@@ -1,5 +1,10 @@
 # HumanBenchmarkBot
- Automation of tasks on [Human Benchmark](https://humanbenchmark.com/) using python, just for fun. Try it for yourself if you've never done it!
+ Automation of tasks on [Human Benchmark](https://humanbenchmark.com/) using python, just for fun. Try it for yourself if you've never done it! (Without the bot of course)
+ 
+ Here are what my scores look like...
+ ![image](https://user-images.githubusercontent.com/34012681/116012273-df290280-a5e6-11eb-9bee-9215af3c807e.png)
+
+ But let's get to the bot.
  
  Here's what I've got working:
  - chimp test
@@ -11,9 +16,11 @@
  
  Everything else is either a work in progress or I haven't started.
  Why did I make this? I was bored and thought this would be something fun to do.
- It's entirely pointless and meaningless but I thought it'd be a bit of a challenge and it would be fun so here I am..
+ It's entirely meaningless to try and get higher scores, but I thought it'd be a bit of a fun challenge so here I am..
  
  To use, run the scripts when you're on the respective tests, I suppose I could even automate the entire thing at some point as well...
+ 
+ Almost all of them are just infinite loops so you'll have to ctrl+alt+del and move your cursor to the edge of your screen to trigger the pyautogui fail safe in order to stop some of them. Others, you will have enough time to close the program. The Aim Trainer WILL probably open new tabs because the new tab button is similar enough to the target.
  
  Here's how the working stuff currently works:
  - Chimp test: looks for the boxes with numbers on screen with the screen_search library and stores their locations in an array, pyautogui then clicks the locations in order.
