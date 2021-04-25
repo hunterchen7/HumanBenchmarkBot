@@ -11,7 +11,7 @@ if start[0] != -1:
 
 moveTo(1,1)
 
-#hardcoded because I couldn't find another way
+#hardcoded because the other way was wacky and required too much work
 left = 750
 top = 250
 bottom = 650

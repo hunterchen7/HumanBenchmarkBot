@@ -1,3 +1,2 @@
 Number Memory
-Visual Memory
 Sequence Memory
