@@ -31,9 +31,7 @@
  - Visual memory: takes a screenshot of the grid that appears, then finds where all the white squares occur then clicks them. 
 
 Well how does it perform? Here are the tests available:
-
 ![bot benchmark 1 2](https://user-images.githubusercontent.com/34012681/116012188-5316db00-a5e6-11eb-8900-2755081f7b2d.PNG)
-
 Quite admirable, as one would expect.
 
 And I did look around a bit for a use policy and I couldn't find one so I'm fairly sure this is ok. And there's no leaderboard or anything so there's really no incentive to do it other than just because..
