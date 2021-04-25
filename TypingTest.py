@@ -1,6 +1,5 @@
 import cv2
 import pytesseract
-import numpy
 import pyautogui
 from screen_search import *
 
@@ -20,7 +19,7 @@ fixed = ""
 #print(list(text))
 
 for i in text:
-    if i == "|":
+    if i == "|": #detects I as | for whatever reason
         fixed += "I"
     elif i == '\n': # new lines become spaces
         fixed += ' '
@@ -43,5 +42,5 @@ print(fixed)
 
 pyautogui.click(x=left+50,y=top+50) #return focus to text box
 
-pyautogui.write(fixed,0.04) #detects I as | for whatever reason
+pyautogui.write(fixed) 
 
