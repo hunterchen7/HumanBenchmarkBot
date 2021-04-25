@@ -1,5 +1,5 @@
 # HumanBenchmarkBot
- Automation of tasks on [human benchmarks](https://humanbenchmark.com/) using python, just for fun
+ Automation of tasks on [Human Benchmark](https://humanbenchmark.com/) using python, just for fun
  
  Here's what I've got working:
  - chimp test
