@@ -8,7 +8,7 @@ left = topLeft[0]
 top = topLeft[1]
 bottomRight = Search("images/bottom_right_corner.png").imagesearch()
 right = bottomRight[0] + 20 #takes location of top left so add 20
-bottom = bottomRight[1] + 20 #same deald
+bottom = bottomRight[1] + 20 #same deal
 
 pyautogui.screenshot(region=(left, top, right - left, bottom - top)).save("images/text.png")
 img = cv2.imread("images/text.png")
