@@ -1,0 +1,10 @@
+from screen_search import *
+
+# Search for the github logo on the whole screen
+# note that the search only works on your primary screen.
+search = Search("images/target.png")
+
+while True: #use ctrl alt delete to stop, if i try to listen for some key to finish or check if finished performance is hindered
+    pos = search.imagesearch()
+    if pos[0] != -1:
+        pyautogui.click(x=pos[0], y=pos[1])
