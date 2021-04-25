@@ -9,9 +9,9 @@
  
  Everything else is either a work in progress or I haven't started.
  Why did I make this? I was bored and thought this would be something fun to do.
- It's entirely pointless and meaningless but I thought it'd be a bit of a challenge and it would be fun so here I am.
+ It's entirely pointless and meaningless but I thought it'd be a bit of a challenge and it would be fun so here I am..
  
- To use, run the scripts when you're on the respective tests, I suppose I could even automate this at some point as well...
+ To use, run the scripts when you're on the respective tests, I suppose I could even automate the entire thing at some point as well...
  
  Here's how the working stuff currently works:
  - Chimp test: looks for the boxes with numbers on screen with the screen_search library and stores their locations in an array, pyautogui then clicks the locations in order.
