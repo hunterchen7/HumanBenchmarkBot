@@ -12,6 +12,6 @@
  
  To use, run the scripts when you're on the respective tests, I suppose I could even automate this at some point as well...
  
- The chimp test looks for the boxes with numbers on screen and stores their locations in an array, pyautogui then clicks the locations in order.
- The typing test uses Tesseract to recognize text in the box and then types it with pyautogui.write(), 0.04s delay so it types at 255 WPM.
- The aim trainer searches for the target on screen and clicks it, to increase performance the target used here is just a small portion of the real target.
+ - The chimp test looks for the boxes with numbers on screen and stores their locations in an array, pyautogui then clicks the locations in order.
+ - The typing test uses Tesseract to recognize text in the box and then types it with pyautogui.write(), 0.04s delay so it types at 255 WPM.
+ - The aim trainer searches for the target on screen and clicks it, to increase performance the target used here is just a small portion of the real target.
