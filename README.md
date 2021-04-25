@@ -24,6 +24,7 @@
 Well how does it perform? Here are the tests available:
 
 ![bot benchmark](https://user-images.githubusercontent.com/34012681/115993091-6c8c3880-a58e-11eb-830e-a850b1e7f8f1.PNG)
+
 Quite admirable, as expected.
 
 I believe reaction time isn't 100 percentile due to a bottleneck with loading the color of the pixel, either from the snapshot or getting the actual value. It may be worth experimenting with libraries other than Pillow and seeing if they're faster (such as PyWin32). And AimTrainer is slower the larger the image is, so I can probably speed it up by making the area that it searches smaller, and the image that it searches for smaller.
