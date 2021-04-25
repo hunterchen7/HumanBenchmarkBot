@@ -21,8 +21,10 @@
  - Reaction time: waits for a certain pixel to turn green and clicks, if it's blue it'll wait 2 seconds before clicking so the user can see how long the computer took.
  - Verbal memory: Sees a word, checks if it's in the list of words it's seen, if not then click new and add to the list, click seen and add to the list otherwise.
 
-Well how does it perform?
+Well how does it perform? Here are the tests available:
+
 ![bot benchmark](https://user-images.githubusercontent.com/34012681/115993091-6c8c3880-a58e-11eb-830e-a850b1e7f8f1.PNG)
 Quite admirable, as expected.
+
 I believe reaction time isn't 100 percentile due to a bottleneck with loading the color of the pixel, either from the snapshot or getting the actual value. It may be worth experimenting with libraries other than Pillow and seeing if they're faster (such as PyWin32). And AimTrainer is slower the larger the image is, so I can probably speed it up by making the area that it searches smaller, and the image that it searches for smaller.
 
